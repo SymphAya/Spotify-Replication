@@ -1,0 +1,46 @@
+body {
+    background-color: #121212;
+}
+
+#albums-images {
+    display: grid;
+    grid-template-columns: repeat(8,150px);
+    gap: 2rem;
+    color: #FFFF;
+}
+
+.album-size {
+    max-width: 150px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgb(207, 207, 207);
+    margin-top: -6px;
+    min-height: 8dvh;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:fuchsia;
+    margin-top: 25px;
+}
+
+#nav-logo {
+    max-height: 12dvh;
+    max-width: 12dvh;
+    margin-top: 10px
+}
+
+/* footer content  */
+
+footer {
+    display: flex;
+    padding: 10px;
+    background-color: pink;
+    justify-content: space-evenly;
+}
