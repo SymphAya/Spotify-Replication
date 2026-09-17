@@ -1,197 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Spotify Music Page">
-    <title>Spotify</title>
-    <link rel="stylesheet" href="../global.css" type="text/css">
-</head>
-<body>
-    <!-- Navigation -->
-    <nav>
-        <a href="./">
-            <img src="./Spotify/Images/logos/spotify-logo.png" id="nav-logo">
-        </a>
-        
-        <div class="nav-link">
-            <div class="search-bar">
-                <a href="./">
-                    <img src="./Spotify/Images/Icons/home-icon.png" id="nav-logo">
-                </a>
-                <a href="./">
-                    <img src="./Spotify/Images/Icons/search-icon.png" id="nav-logo2">
-                </a>
-                <a href="./">What do you want to play?</a>
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Spotify Music Page">
+        <title>Spotify</title>
+        <link rel="stylesheet" href="./global.css" type="text/css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav>
+            <a href="./">
+                <img src="./Spotify/Images/logos/spotify-logo.png" id="nav-logo">
+            </a>
             
-            <div class="downloads">
-                <a href="./">Premium</a>
-                <a href="./">Support</a>
-                <a href="./">Download</a>
-                <a href="./">
-                    <img src="./Spotify/Images/Icons/download-icon.png" id="nav-logo2">Install App
-                </a>
-                <a href="./">Sign Up</a>
-                <a href="./" class="login-wrap">Log In</a>
+            <div class="nav-link">
+                <div class="search-bar">
+                    <a href="./">
+                        <img src="./Spotify/Images/Icons/home-icon.png" id="nav-logo-house">
+                    </a>
+                    <a href="./">
+                        <img src="./Spotify/Images/Icons/search-icon.png" id="nav-logo">
+                    </a>
+                    <a href="./">What do you want to play?</a>
+                </div>
+                
+                <div class="downloads">
+                    <a href="./">Premium</a>
+                    <a href="./">Support</a>
+                    <a href="./">Download</a>
+                    <a href="./">
+                        <img src="./Spotify/Images/Icons/download-icon.png" id="nav-logo2">Install App
+                    </a>
+                    <a href="./">Sign Up</a>
+                    <a href="./" id="login-wrap">Log In</a>
+                </div>
+            
             </div>
+        </nav>
+
+            <!-- Hero content  -->
+        <main>
+            <aside id="sidebar">
+                <article class="side-bar-content">
+
+                        <div class="library">
+                            <h2>Your Library</h2>
+                            <h3>Create your first playlist.</h3>
+                            <p>It's easy, we'll help you</p>
+                            <h4 class="side-button2">Create Playlist</h4>
+                        </div>
+                </article>
+
+                <article class="side-bar-content">
+                        <div class="podcasts">
+                            <h3>Let's find some podcasts to follow</h3>
+                            <p>We'll keep you updated on new episodes</p>
+                            <h4 class="side-button1">Browse podcasts</h4>
+                        </div>
+                </article>
+
+                <article class="side-bar-content">
+                        <div class="policies">
+                            <p>Legal</p>
+                            <p>Safety & Privacy Center</p>
+                            <p>Privacy Policy</p>
+                            <p>Cookies</p>
+                            <p>About Ads</p>
+                            <p>Accessibility</p>
+                            <p>Notice at Collection</p>
+                        </div>
+                </article>
+
+                <article class="side-bar-content">
+                        <div class="language">
+                            <p>Your Privacy Choices</p>
+                        </div>
+
+                        <div>
+                            <img src="./Spotify/Images/Icons/world-icon.png" class="special-icon">
+                            <h3>English</h3>
+                        </div>
+                </article>
+            </aside>
+
+            <section>
+                <h2>Popular Albums</h2>
+                <article id="albums-images">
+                    <div>
+                        <img src="./Spotify/Images/album-images/I'mTheProblem-MorganWallen.jpg" class="album-size">
+                        <h3>I'm The Problem</h3>
+                        <p>Morgan Wallen</p>
+                    </div>
+                    <div>
+                        <img src="./Spotify/Images/album-images/DeBiToRARMaSFOToS-BadBunny.jpeg" class="album-size">
+                        <h3>DeBi TiRAR MaS FOToS</h3>
+                        <p>Bad Bunny</p>
+                    </div>
+                    <div>
+                        <img src="./Spotify/Images/album-images/10HoursofContinuousRain...-WhiteNoiseRadiance,RainSounds.jpg" class="album-size">
+                        <h3>10 Hours of Continuous Rain...</h3>
+                        <p>White Noise Radiance, Rain Sounds</p>
+                    </div>
+
+                    <div>
+                        <img src="./Spotify/Images/album-images/HITMEHARDANDSOFT-BillieEilish.jpg" class="album-size">
+                        <h3>HIT ME HARD AND SOFT</h3>
+                        <p>Billie Eilish</p>
+                    </div>
+
+                    <div>
+                        <img src="./Spotify/Images/album-images/GNX-KendrickLamar.jpg" class="album-size">
+                        <h3>GNX</h3>
+                        <p>Kendrick Lamar</p>
+                    </div>
+                    <div>
+
+                        <img src="./Spotify/Images/album-images/$ome$exy$ongs4 u-PARTYNEXTDOOR,Drake.jpg" class="album-size">
+                        <h3>$ome $exy $ongs 4 U</h3>
+                        <p>PARTYNEXTDOOR, Drake</p>
+                    </div>
+
+                    <div>
+
+                        <img src="./Spotify/Images/album-images/MUSIC-PlayboiCarti.jpeg" class="album-size">
+                        <h3>MUSIC</h3>
+                        <p>Playboi Carti</p>
+                    </div>
+                    <div>
+
+                        <img src="./Spotify/Images/album-images/hamilton(originalbroadwaycastrecording)-LinManuelMiranda.jpg" class="album-size">
+                        <h3>Hamilton (Original Broadway Cast...</h3>
+                        <p>Lin-Manuel Miranda</p>
+                    </div>
+
+                    <div>
+
+                        <img src="./Spotify/Images/album-images/EvenInArcadia-SleepToken.jpg" class="album-size">
+                        <h3>Even In Arcadia</h3>
+                        <p>Sleep Token</p>
+                    </div>
+
+                    <div>
+
+                        <img src="./Spotify/Images/album-images/Shortn'Sweet-SabrinaCarpenter.jpg" class="album-size">
+                        <h3>Short n'Sweet</h3>
+                        <p>Sabrina Carpenter</p>
+                    </div>
+                    <div>
+
+                        <img src="./Spotify/Images/album-images/CHROMAKOPIA-Tyler,TheCreator.jpg" class="album-size">
+                        <h3>CHROMAKOPIA</h3>
+                        <p>Tyler, The Creator</p>
+                    </div>
+
+                    <div>
+
+                        <img src="./Spotify/Images/album-images/Blonde-FrankOcean.jpg" class="album-size">
+                        <h3>Blonde</h3>
+                        <p>Frank Ocean</p>
+                    </div>
+
+                    <div>
+
+                        <img src="./Spotify/Images/album-images/BestWhiteNoiseforBabySleep-Dream-Supplier,BabySleeps,GranularNoise.jpg" class="album-size">
+                        <h3>Best White Noise For Sleeping Baby</h3>
+                        <p>Dream Supplier, Baby Sleeps, Granular Noise</p>
+                    </div>
+
+                    <div>
+
+                        <img src="./Spotify/Images/album-images/HurryUpTomorrow-TheWeeknd.jpeg" class="album-size">
+                        <h3>Hurry Up Tomorrow</h3>
+                        <p>The Weekend</p>
+                    </div>
+
+                    <div>
+
+                        <img src="./Spotify/Images/album-images/reputation-TaylorSwift.jpg" class="album-size">
+                        <h3>reputation</h3>
+                        <p>Taylor Swift</p>
+                    </div>
+
+                    <div>
+
+                        <img src="./Spotify/Images/album-images/UnVeranoSinTi-BadBunny.jpg" class="album-size">
+                        <h3>Un Verano Sin Ti</h3>
+                        <p>Bad Bunny</p>
+                    </div>
+
+                </article>
+            </section>
+        </main>
+
+            
+
         
-        </div>
-    </nav>
 
-    <!-- Hero content  -->
-     <main>
-        <h2>Popular Albums</h2>
-        <article id="albums-images">
-            <div>
-                <img src="./Spotify/Images/album-images/I'mTheProblem-MorganWallen.jpg" class="album-size">
-                <h3>I'm The Problem</h3>
-                <p>Morgan Wallen</p>
+
+        <footer>
+            <div class="preview">
+                <h3>Preview of Spotify</h3>
+                <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
             </div>
-            <div>
-                <img src="./Spotify/Images/album-images/DeBiToRARMaSFOToS-BadBunny.jpeg" class="album-size">
-                <h3>DeBi TiRAR MaS FOToS</h3>
-                <p>Bad Bunny</p>
-            </div>
-            <div>
-                <img src="./Spotify/Images/album-images/10HoursofContinuousRain...-WhiteNoiseRadiance,RainSounds.jpg" class="album-size">
-                <h3>10 Hours of Continuous Rain...</h3>
-                <p>White Noise Radiance, Rain Sounds</p>
-            </div>
+            <h2 class="signup">Sign up Free.</h2>
+        </footer>
 
-            <div>
-                <img src="./Spotify/Images/album-images/HITMEHARDANDSOFT-BillieEilish.jpg" class="album-size">
-                <h3>HIT ME HARD AND SOFT</h3>
-                <p>Billie Eilish</p>
-            </div>
-
-            <div>
-                <img src="./Spotify/Images/album-images/GNX-KendrickLamar.jpg" class="album-size">
-                <h3>GNX</h3>
-                <p>Kendrick Lamar</p>
-            </div>
-            <div>
-
-                <img src="./Spotify/Images/album-images/$ome$exy$ongs4 u-PARTYNEXTDOOR,Drake.jpg" class="album-size">
-                <h3>$ome $exy $ongs 4 U</h3>
-                <p>PARTYNEXTDOOR, Drake</p>
-            </div>
-
-            <div>
-
-                <img src="./Spotify/Images/album-images/MUSIC-PlayboiCarti.jpeg" class="album-size">
-                <h3>MUSIC</h3>
-                <p>Playboi Carti</p>
-            </div>
-            <div>
-
-                <img src="./Spotify/Images/album-images/hamilton(originalbroadwaycastrecording)-LinManuelMiranda.jpg" class="album-size">
-                <h3>Hamilton (Original Broadway Cast...</h3>
-                <p>Lin-Manuel Miranda</p>
-            </div>
-
-            <div>
-
-                <img src="./Spotify/Images/album-images/EvenInArcadia-SleepToken.jpg" class="album-size">
-                <h3>Even In Arcadia</h3>
-                <p>Sleep Token</p>
-            </div>
-
-            <div>
-
-                <img src="./Spotify/Images/album-images/Shortn'Sweet-SabrinaCarpenter.jpg" class="album-size">
-                <h3>Short n'Sweet</h3>
-                <p>Sabrina Carpenter</p>
-            </div>
-            <div>
-
-                <img src="./Spotify/Images/album-images/CHROMAKOPIA-Tyler,TheCreator.jpg" class="album-size">
-                <h3>CHROMAKOPIA</h3>
-                <p>Tyler, The Creator</p>
-            </div>
-
-            <div>
-
-                <img src="./Spotify/Images/album-images/Blonde-FrankOcean.jpg" class="album-size">
-                <h3>Blonde</h3>
-                <p>Frank Ocean</p>
-            </div>
-
-            <div>
-
-                <img src="./Spotify/Images/album-images/BestWhiteNoiseforBabySleep-Dream-Supplier,BabySleeps,GranularNoise.jpg" class="album-size">
-                <h3>Best White Noise For Sleeping Baby</h3>
-                <p>Dream Supplier, Baby Sleeps, Granular Noise</p>
-            </div>
-
-            <div>
-
-                <img src="./Spotify/Images/album-images/HurryUpTomorrow-TheWeeknd.jpeg" class="album-size">
-                <h3>Hurry Up Tomorrow</h3>
-                <p>The Weekend</p>
-            </div>
-
-            <div>
-
-                <img src="./Spotify/Images/album-images/reputation-TaylorSwift.jpg" class="album-size">
-                <h3>reputation</h3>
-                <p>Taylor Swift</p>
-            </div>
-
-            <div>
-
-                <img src="./Spotify/Images/album-images/UnVeranoSinTi-BadBunny.jpg" class="album-size">
-                <h3>Un Verano Sin Ti</h3>
-                <p>Bad Bunny</p>
-            </div>
-
-        </article>
- </div>
-    </main>
-
-    <article class="side-bar-content">
-
-        <div class="library">
-            <h2>Your Library</h2>
-            <h3>Create your first playlist.</h3>
-            <p>It's easy, we'll help you</p>
-            <h4>Create Playlist</h4>
-        </div>
-
-        <div>
-            <h3>Let's find some podcasts to follow</h3>
-            <p>We'll keep you updated on new episodes</p>
-            <h4>Browse podcasts</h4>
-        </div>
-
-        <div class="policies">
-            <p>Legal</p>
-            <p>Safety & Privacy Center</p>
-            <p>Privacy Policy</p>
-            <p>Cookies</p>
-            <p>About Ads</p>
-            <p>Accessibility</p>
-            <p>Notice at Collection</p>
-        </div>
-
-        <div>
-            <p>Your Privacy Choices</p>
-        </div>
-
-        <div>
-            <img src="./Spotify/Images/Icons/world-icon.png">
-            <h3>English</h3>
-        </div>
-    </article>
-
-
-     <footer>
-        <div class="preview">
-            <h3>Preview of Spotify</h3>
-            <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
-        </div>
-        <h2 class="signup">Sign up Free.</h2>
-     </footer>
-
-</body>
+    </body>
 </html>
